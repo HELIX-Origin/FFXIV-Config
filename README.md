@@ -1,6 +1,9 @@
-# FFXIV-Config
+# FFXIV Config
 
 Custom UI built on top of Fr4nsson's FFXIV Config with support for 8.x jobs.
+
+<img width="100%" height="auto" alt="image" src="https://github.com/user-attachments/assets/14de1ec4-7703-4396-89c5-c4976dbc1cf8" />
+
 
 ### Features
 
