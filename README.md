@@ -28,3 +28,7 @@ Custom UI built on top of Fr4nsson's FFXIV Config with support for 8.x jobs.
 2. Extract the downloaded archive to your preferred location.
 3. Copy the contents of the [`src`](src) folder to your FFXIV character configuration directory.
 4. Launch FFXIV and verify that the custom UI is applied correctly.
+
+### Notes
+
+- The squared minimap is not a part of this config. If you want that you can find it [`here`](https://www.xivmodarchive.com/modid/11811).
