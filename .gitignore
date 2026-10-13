@@ -1,0 +1,23 @@
+# --- OS / editor metadata ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# --- Temporary files ---
+*.tmp
+*.temp
+*.bak
+*.log
+
+# --- GitHub Pages / Jekyll build artifacts ---
+# The docs site is built and deployed manually (no Pages workflow).
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+Gemfile.lock
