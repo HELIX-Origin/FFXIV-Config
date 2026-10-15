@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-labelledby="title description">
+  <title id="title">FFXIV Config</title>
+  <desc id="description">FFXIV Config HUD, hotbar, and macro layout artwork on a dark obsidian background.</desc>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset="1" stop-color="#040a14"/>
+    </linearGradient>
+
+    <!-- Accent Gradient (Meteor Gold to Crystal Cyan) -->
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <!-- Crystal Gradient -->
+    <linearGradient id="crystal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <!-- Icon Plate Clip Path (Standard 450x450 at 218, 315 with 72px radius) -->
+    <clipPath id="icon">
+      <rect x="218" y="315" width="450" height="450" rx="72"/>
+    </clipPath>
+  </defs>
+
+  <!-- 1. Full Canvas Background -->
+  <rect width="1920" height="1080" fill="url(#background)"/>
+
+  <!-- 2. Atmospheric Ambient Orbs -->
+  <circle cx="1700" cy="150" r="540" fill="#f59e0b" opacity=".10"/>
+  <circle cx="1400" cy="900" r="420" fill="#38bdf8" opacity=".08"/>
+
+  <!-- 3. Signature Diagonal Light Ray -->
+  <path d="M0 930 750 180h360L360 1080H0z" fill="#fff" opacity=".025"/>
+
+  <!-- 4. Soft Outer Glow Behind Icon Plate -->
+  <rect x="198" y="295" width="490" height="490" rx="92" fill="#fff" opacity=".08"/>
+
+  <!-- 5. Icon Plate Vector Artwork Container -->
+  <g clip-path="url(#icon)">
+    <!-- Plate Background Base -->
+    <rect x="218" y="315" width="450" height="450" fill="#091528"/>
+
+    <!-- Internal Ambient Glows -->
+    <circle cx="619" cy="343" r="160" fill="#f59e0b" opacity=".16"/>
+    <circle cx="260" cy="740" r="140" fill="#38bdf8" opacity=".14"/>
+
+    <!-- Stylized Final Fantasy Meteor & Cross-Hotbar Emblem -->
+    <g transform="translate(325, 420)">
+      <!-- Meteor / Crystal Outer Core -->
+      <path d="M118 0 C130 50, 180 85, 236 95 C190 125, 140 180, 118 240 C96 180, 46 125, 0 95 C56 85, 106 50, 118 0 Z" fill="url(#crystal)" opacity=".9"/>
+      <!-- Inner Crystal Facet Highlights -->
+      <polygon points="118,35 155,95 118,185 81,95" fill="#ffffff" opacity=".4"/>
+      <polygon points="118,60 140,95 118,150 96,95" fill="#ffffff" opacity=".7"/>
+      <!-- Cross Orbit Rings -->
+      <circle cx="118" cy="105" r="70" fill="none" stroke="#f59e0b" stroke-width="4" opacity=".5" stroke-dasharray="12 8"/>
+      <circle cx="118" cy="105" r="95" fill="none" stroke="#38bdf8" stroke-width="3" opacity=".4" stroke-dasharray="16 10"/>
+    </g>
+  </g>
+
+  <!-- 6. Outer Border Stroke on Plate -->
+  <rect x="218" y="315" width="450" height="450" rx="72" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="2"/>
+
+  <!-- 7. Accent Divider -->
+  <rect x="820" y="376" width="10" height="328" rx="5" fill="url(#accent)"/>
+
+  <!-- 8. Typography -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- Primary Project Title -->
+    <text x="880" y="485" fill="#ffffff" font-size="88" font-weight="700" letter-spacing="-1">FFXIV Config</text>
+
+    <!-- Descriptive Subtitle -->
+    <text x="880" y="575" fill="#94a3b8" font-size="48" font-weight="500">HUD, Hotbar &amp; Macro Layout</text>
+
+    <!-- Category Pill Tag -->
+    <text x="885" y="655" fill="#38bdf8" font-size="30" font-weight="700" letter-spacing="8">GAME CONFIGURATION</text>
+  </g>
+</svg>
