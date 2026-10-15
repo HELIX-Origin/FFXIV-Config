@@ -1,0 +1,20 @@
+# Normalize line endings across platforms so agents on Windows, Linux, and
+# macOS see byte-identical files and the working tree never churns.
+# This overrides core.autocrlf for every matched path.
+* text=auto eol=lf
+
+# Explicit text types
+*.md        text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+
+# Binary types (never convert)
+*.dat       binary
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.ico       binary
+*.icns      binary
+*.pdf       binary
+*.zip       binary
