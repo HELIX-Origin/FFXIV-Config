@@ -18,9 +18,7 @@ header_actions:
 image: assets/images/ffxiv-config.svg
 ---
 
-<div class="site-banner-container" style="margin-bottom: 2.2rem; border-radius: 14px; overflow: hidden; border: 1px solid rgba(135, 195, 250, 0.25); box-shadow: 0 16px 48px rgba(0,0,0,0.5);">
-<img width="100%" height="auto" alt="FFXIV Config preview" src="https://github.com/user-attachments/assets/14de1ec4-7703-4396-89c5-c4976dbc1cf8" loading="lazy" decoding="async" />
-</div>
+<div markdown="0" class="site-banner-container" style="margin-bottom: 2.2rem; border-radius: 14px; overflow: hidden; border: 1px solid rgba(135, 195, 250, 0.25); box-shadow: 0 16px 48px rgba(0,0,0,0.5); line-height: 0; font-size: 0;"><img src="https://github.com/user-attachments/assets/14de1ec4-7703-4396-89c5-c4976dbc1cf8" alt="FFXIV Config preview" style="width: 100%; height: auto; display: block; margin: 0; padding: 0; border: none;" loading="lazy" decoding="async" /></div>
 
 <section id="about" class="doc-section">
 <div class="section-heading">
