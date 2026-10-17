@@ -2,6 +2,12 @@
 
 # FFXIV Config
 
+<p align="center">
+  <a href="https://docs.helix-origin.club/ffxiv-config/"><img src="https://img.shields.io/badge/Docs-docs.helix--origin.club-brightgreen" alt="Documentation" height="20" /></a>
+  <a href="https://opensource.org/licenses/BSD-3-Clause"><img src="https://img.shields.io/badge/License-BSD--3--Clause-blue.svg" alt="License: BSD-3-Clause" height="20" /></a>
+</p>
+
+
 A custom, information-dense HUD and hotbar setup for **Final Fantasy XIV**, built on top of
 [Fr4nsson's FFXIV Config (FFC)](https://github.com/Fr4nsson/FFC) with up-to-date support for 8.x jobs.
 
@@ -53,3 +59,10 @@ The full reference lives at **<https://docs.helix-origin.club/ffxiv-config/>**:
 
 - Base layout, keybinds and menu system: [Fr4nsson's FFXIV Config (FFC)](https://github.com/Fr4nsson/FFC), adapted and extended here for current 8.x jobs.
 - FFXIV Config is **config-only**. Every file is one the game itself creates and reads; no third-party files or tools are required. Use at your own risk — always keep the backup described in the install guide.
+
+---
+
+## 📄 License
+
+⚖️ BSD-3-Clause License — see [`LICENSE`](LICENSE) for details.
+
