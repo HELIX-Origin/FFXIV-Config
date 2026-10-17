@@ -11,8 +11,8 @@ tagline: HUD & Hotbar Setup for Final Fantasy XIV
 tagline_short: HUD & Hotbar Setup
 description: "A custom, information-dense HUD, hotbar and macro layout for Final Fantasy XIV — every combat, crafting and gathering job pre-arranged, with an on-screen macro menu for switching jobs."
 url: "https://www.helix-origin.club"
-baseurl: "/FFXIV-Config"
-repository: "HELIX-Origin/FFXIV-Config"
+baseurl: "/ffxiv-config"
+repository: "HELIX-Origin/ffxiv-config"
 github_username: "HELIX-Origin"
 
 # Author & Publisher Metadata
